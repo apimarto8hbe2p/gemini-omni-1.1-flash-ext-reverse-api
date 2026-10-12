@@ -1,10 +1,27 @@
-# Gemini Omni 1.1 Flash Ext — reverse-engineered route (English)
+# Gemini Omni 1.1 Flash API (`gemini-omni-1.1-flash-ext`)
 
-> **per-call billing** · model ID `Omni-Flash-Ext` · **reverse-engineered/reverse engineering** route.
+<!-- conv-kit:v1 -->
 
-**[See live pricing](https://go.apimart.ai/k-0a6886)** · **[Get an API key](https://go.apimart.ai/k-59f124)**
+<p align="center">
+  <img src="assets/badges/price.svg" alt="observed unit price"> <img src="assets/badges/billing.svg" alt="billing model"> <img src="assets/badges/compat.svg" alt="OpenAI-compatible endpoint">
+</p>
 
-gemini-omni-1.1-flash-ext-reverse-api is a **reverse-engineered** route for Gemini Omni 1.1 Flash Ext: callable ID `Omni-Flash-Ext`, running in parallel with the official route (`gemini-omni-1.1-flash`) at a lower unit price.
+<p align="center">
+  <img src="assets/01-product-hero-perfume.jpg" width="820" alt="Gemini Omni 1.1 Flash (gemini-omni-1.1-flash-ext) output generated through APIMart">
+</p>
+
+> **per image, billed by resolution** on the Ext route — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
+
+**[Get an API key](https://go.apimart.ai/k-59f124)** · **[Live pricing](https://go.apimart.ai/k-fd720c)** · **[Model page](https://go.apimart.ai/k-b0250b)** · [⚡ 60-second quickstart](#quickstart)
+
+**Why teams call Gemini Omni 1.1 Flash (`gemini-omni-1.1-flash-ext`) through APIMart**
+
+- **One key, entire catalog.** The same `https://api.apimart.ai/v1` base URL and `Authorization` header reach Gemini Omni 1.1 Flash (`gemini-omni-1.1-flash-ext`) and 300+ other image, video and language models — switch the `model` field, not your client.
+- **$1 minimum, pay as you go.** No subscription and no prepaid plan to size up front: top up from $1 and spend it on calls. There is no free quota to burn through first, so the price in this table is the price you pay.
+- **The charge comes back in the response.** Every completed task reports the amount billed (`cost` / `credits_cost`), so a spend number is read per call instead of guessed at month end.
+- **Async by design.** Submit, take the `task_id`, poll `GET /v1/tasks/{id}` — batching and retries are ordinary queue work, not a bespoke integration.
+
+<!-- /conv-kit:v1 -->
 
 ## Published unit prices (snapshot 2026-09-28)
 
